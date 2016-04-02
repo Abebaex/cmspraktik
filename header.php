@@ -23,11 +23,12 @@
     </form>
   </div>
   <nav>
-    <ul>
+<?php /*?>    <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Directory</a></li>
       <li><a href="#">Blog</a></li>
-    </ul>
+    </ul><?php */?>
+    <?php wp_nav_menu(array('theme_locations'=>'menu_header'));?>
   </nav>
 </header>
 
